@@ -7,7 +7,6 @@ public:
         int n = p.length();
 
         vector<vector<bool>> dp(m + 1, vector<bool>(n + 1, false));
-
         dp[0][0] = true;
 
         for (int i = 0; i <= m; i++) {
